@@ -849,21 +849,23 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
-.why-us .box {
+.why-us .box1 {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
-  background: #1a1814;
+  background-image: linear-gradient(rgba(50, 49, 49, 0.493), rgba(27, 26, 26, 0.5)) ,url('https://www.alberthsieh.com/wp-content/uploads/2023/01/ruskit_13524.jpg');
+  background-size: cover; /* 背景圖片覆蓋整個元素 */
+  background-position: center; /* 背景圖片居中 */
 }
 
-.why-us .box span {
+.why-us .box1 span {
   display: block;
   font-size: 28px;
   font-weight: 700;
   color: #cda45e;
 }
 
-.why-us .box h4 {
+.why-us .box1 h4 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
@@ -871,25 +873,113 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.why-us .box p {
-  color: #aaaaaa;
+.why-us .box1 p {
+  color: #fffefe;
   font-size: 15px;
+  font-weight: bold;
   margin: 0;
   padding: 0;
 }
 
-.why-us .box:hover {
+.why-us .box1:hover {
   background: #cda45e;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
 }
 
-.why-us .box:hover span,
-.why-us .box:hover h4,
-.why-us .box:hover p {
+.why-us .box1:hover span,
+.why-us .box1:hover h4,
+.why-us .box1:hover p {
   color: #fff;
 }
 
+.why-us .box2 {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background-image: linear-gradient(rgba(27, 26, 26, 0.5), rgba(26, 25, 25, 0.5)),url('https://heho.com.tw/wp-content/uploads/2018/04/%E6%B4%97%E8%85%8E%E7%97%85%E6%82%A3%E9%80%99%E6%A8%A3%E5%90%83%E5%B0%B1%E5%B0%8D%E4%BA%86%EF%BC%81.png'),linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  background-size: cover; /* 背景圖片覆蓋整個元素 */
+  background-position: center; /* 背景圖片居中 */
+}
+
+.why-us .box2 span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
+.why-us .box2 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.why-us .box2 p {
+  color: #fefcfc;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .box2:hover {
+  background: #cda45e;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.why-us .box2:hover span,
+.why-us .box2:hover h4,
+.why-us .box2:hover p {
+  color: #fff;
+}
+
+.why-us .box3 {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background-image: linear-gradient(rgba(25, 25, 25, 0.5), rgba(20, 19, 19, 0.5)),url('https://noodle1895.com/wp-content/uploads/2020/04/%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8D%97%E5%82%B3%E7%B5%B1%E7%BE%8E%E9%A3%9F%E5%BA%A6%E5%B0%8F%E6%9C%88%E6%93%94%E4%BB%94%E9%BA%B5%E4%B8%AD%E6%AD%A3%E6%97%97%E8%89%A6%E5%BA%97%E7%94%A8%E9%A4%90%E7%92%B0%E5%A2%83-1024x683.jpg'),linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  background-size: cover; /* 背景圖片覆蓋整個元素 */
+  background-position: center; /* 背景圖片居中 */
+}
+
+.why-us .box3 span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cda45e;
+}
+
+.why-us .box3 h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.why-us .box3 p {
+  color: #fdf5f5;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.why-us .box3:hover {
+  background: #cda45e;
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.why-us .box3:hover span,
+.why-us .box3:hover h4,
+.why-us .box3:hover p {
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
@@ -985,67 +1075,6 @@ section {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
-.specials {
-  overflow: hidden;
-}
-
-.specials .nav-tabs {
-  border: 0;
-}
-
-.specials .nav-link {
-  border: 0;
-  padding: 12px 15px;
-  transition: 0.3s;
-  color: #fff;
-  border-radius: 0;
-  border-right: 2px solid #cda45e;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.specials .nav-link:hover {
-  color: #cda45e;
-}
-
-.specials .nav-link.active {
-  color: #1a1814;
-  background: #cda45e;
-  border-color: #cda45e;
-}
-
-.specials .nav-link:hover {
-  border-color: #cda45e;
-}
-
-.specials .tab-pane.active {
-  animation: fadeIn 0.5s ease-out;
-}
-
-.specials .details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #fff;
-}
-
-.specials .details p {
-  color: #aaaaaa;
-}
-
-.specials .details p:last-child {
-  margin-bottom: 0;
-}
-
-@media (max-width: 992px) {
-  .specials .nav-link {
-    border: 0;
-    padding: 15px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Events
@@ -1246,103 +1275,7 @@ section {
   background: #d3af71;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
-.testimonials .testimonials-carousel,
-.testimonials .testimonials-slider {
-  overflow: hidden;
-}
 
-.testimonials .testimonial-item {
-  box-sizing: content-box;
-  min-height: 320px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.2);
-}
-
-.testimonials .testimonial-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 45px;
-  color: white;
-}
-
-.testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
-  margin: 0 0 0 45px;
-}
-
-.testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
-  color: #d3af71;
-  font-size: 26px;
-}
-
-.testimonials .testimonial-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.testimonials .testimonial-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.testimonials .testimonial-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: #26231d;
-  position: relative;
-  border-radius: 6px;
-  position: relative;
-  z-index: 1;
-}
-
-.testimonials .swiper-pagination {
-  margin-top: 30px;
-  position: relative;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: rgba(255, 255, 255, 0.4);
-  opacity: 1;
-}
-
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #cda45e;
-}
-
-/*--------------------------------------------------------------
-# Gallery
---------------------------------------------------------------*/
-.gallery .gallery-item {
-  overflow: hidden;
-  border-right: 3px solid #454035;
-  border-bottom: 3px solid #454035;
-}
-
-.gallery .gallery-item img {
-  transition: all ease-in-out 0.4s;
-}
-
-.gallery .gallery-item:hover img {
-  transform: scale(1.1);
-}
 
 /*--------------------------------------------------------------
 # Chefs
@@ -1353,7 +1286,11 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  height: 70%;
+  object-fit: cover
 }
+
 
 .chefs .member .member-info {
   opacity: 0;
